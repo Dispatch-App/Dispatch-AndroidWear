@@ -5,4 +5,5 @@
 
     <string name="needHelp">I Need Help</string>
     <string name="seeCrime">I See a Crime</string>
+    <string name="title_activity_select_crime">SelectCrimeActivity</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.dispatch.dispatch;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
 import android.view.View;
@@ -26,7 +27,7 @@ public class MainActivity extends Activity {
                 userNeedsHelp.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        
+                        startActivity(new Intent(MainActivity.this, SelectCrimeActivity.class));
                     }
                 });
 
