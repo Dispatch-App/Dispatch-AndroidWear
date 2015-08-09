@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dispatch</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <string name="needHelp">I Need Help</string>
+    <string name="seeCrime">I See a Crime</string>
+</resources>
